@@ -1,6 +1,6 @@
 {
     "rewrites":[{
         "source":"/(.*)",
-        "description":"/user.json"
+        "destination":"/user.json"
     }]
 }
