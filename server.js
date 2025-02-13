@@ -18,7 +18,7 @@ server.use(router);
 console.log("router : ",router) 
 // Start the server
 const PORT = 3000;
-server.listen(PORT, () => {
+server.listen(`${PORT}/user`, () => {
   console.log(`JSON Server is running at http://localhost:${PORT}`);
 });
 
